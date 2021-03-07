@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <Extern href="stdidcmd.h"/>
+
+  <Extern href="vsshlids.h"/>
+
+  <Commands package="guidSourcetrailDotnetIndexerExtensionPackage">
+    <Groups>
+      <Group guid="guidSourcetrailDotnetIndexerExtensionPackageCmdSet" id="MyMenuGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS"/>
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidSourcetrailDotnetIndexerExtensionPackageCmdSet" id="GenerateCommandId" priority="0x0100" type="Button">
+        <Parent guid="guidSourcetrailDotnetIndexerExtensionPackageCmdSet" id="MyMenuGroup" />
+        <Strings>
+          <ButtonText>Invoke GenerateCommand</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidSourcetrailDotnetIndexerExtensionPackage" value="{6d80d7d6-c232-4194-8af8-13a84c23d140}" />
+
+    <GuidSymbol name="guidSourcetrailDotnetIndexerExtensionPackageCmdSet" value="{21f3e264-c111-40ae-b6ac-46f07066d1dd}">
+      <IDSymbol name="MyMenuGroup" value="0x1020" />
+      <IDSymbol name="GenerateCommandId" value="0x0100" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
