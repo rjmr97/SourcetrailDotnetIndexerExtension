@@ -20,7 +20,7 @@ namespace SourcetrailDotnetIndexerExtension
     {
         public const int CommandId = 0x0100;
 
-        public static readonly Guid CommandSet = new("734c89fb-80f0-48b0-9a98-0c48b4602005");
+        public static readonly Guid CommandSet = new("21f3e264-c111-40ae-b6ac-46f07066d1dd");
 
         private SourcetrailDotnetIndexerExtensionPackage Package { get; init; }
 
