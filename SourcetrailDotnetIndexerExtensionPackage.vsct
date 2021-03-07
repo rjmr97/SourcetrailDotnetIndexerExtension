@@ -15,7 +15,7 @@
       <Button guid="guidSourcetrailDotnetIndexerExtensionPackageCmdSet" id="GenerateCommandId" priority="0x0100" type="Button">
         <Parent guid="guidSourcetrailDotnetIndexerExtensionPackageCmdSet" id="MyMenuGroup" />
         <Strings>
-          <ButtonText>Invoke GenerateCommand</ButtonText>
+          <ButtonText>Generate Sourcetrail Database</ButtonText>
         </Strings>
       </Button>
     </Buttons>
